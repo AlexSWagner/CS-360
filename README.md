@@ -14,11 +14,11 @@ The UI was designed with the user in mind at every step. Instead of a disruptive
 
 ## Development Approach and Strategy
 
-I developed the application using a modern technology stack centered on Jetpack Compose for the UI and a Model-View-ViewModel (MVVM) architecture for state management. This approach follows the principle of a Unidirectional Data Flow (UDF), where the UI is a direct function of its state. This strategy is highly effective as it creates a clear separation of concerns, making the code significantly easier to debug, maintain, and test. I will apply this technique of decoupling the UI from the logic to all my future projects.
+I developed the application using a modern technology stack centered on Jetpack Compose for the UI and a Model-View-ViewModel architecture for state management. This approach follows the principle of a Unidirectional Data Flow , where the UI is a direct function of its state. This strategy is highly effective as it creates a clear separation of concerns, making the code significantly easier to debug, maintain, and test. I will apply this technique of decoupling the UI from the logic to all my future projects.
 
 ## Testing and Functionality
 
-To ensure the code was functional, I used an iterative testing strategy. I initially built the application with a state-driven UI using mock data in the ViewModel. This allowed me to fully develop and test the interactive UI—including animations and filtering—without needing a fully implemented database backend. This process is important because it isolates the UI layer for rapid iteration and revealed several initial UX flaws that I was then able to correct. Every small change was followed by running the app on an Android Virtual Device (AVD) to ensure stability.
+To ensure the code was functional, I used an iterative testing strategy. I initially built the application with a state-driven UI using mock data in the ViewModel. This allowed me to fully develop and test the interactive UI, including animations and filtering, without needing a fully implemented database backend. This process is important because it isolates the UI layer for rapid iteration and revealed several initial UX flaws that I was then able to correct. Every small change was followed by running the app on an AVD to ensure stability.
 
 ## Innovation and Overcoming Challenges
 
